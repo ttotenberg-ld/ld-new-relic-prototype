@@ -1,0 +1,8 @@
+flask
+requests
+python-dotenv
+launchdarkly-server-sdk
+launchdarkly-observability
+# Custom New Relic agent branch with the LaunchDarkly integration hook
+# (attaches feature flag data to spans/traces). From the NR team's prototype.
+git+https://github.com/newrelic/newrelic-python-agent.git@darkly-nr-integration#egg=newrelic
